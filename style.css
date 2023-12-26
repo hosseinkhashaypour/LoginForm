@@ -1,0 +1,93 @@
+@media (min-width:300px){
+   body{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/029/337/868/large_2x/ai-generative-beautiful-jungle-background-with-border-made-of-tropical-leaves-backdrop-with-copy-space-free-photo.jpg');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+   }
+}
+h1{
+    text-align: center;
+    color: white;
+}
+/* mobile first design  */
+@media (min-width:300px){
+    div#login{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        border: 3px solid white;
+        border-radius: 7px;
+        backdrop-filter: blur(15px);
+        background: rgba(255,255,255,0.2);
+        height: 316px;
+        margin-top: 158px;
+    }
+}
+@media (min-width:300px){
+    div#login input{
+        backdrop-filter: blur(15px);
+        background: rgba(255,255,255,0.2);
+        width: 250px;
+        border-radius: 7px;
+        color: white;
+        text-align: center;
+    }
+}
+@media (min-width:300px){
+    div#login input:focus{
+        border: 1px solid black;
+        outline: none;
+    }
+}
+@media (min-width:300px){
+    div#login input::placeholder{
+        color: white;
+    }
+}
+@media (min-width:300px){
+    div#login button{
+        width: 115px;
+        border-radius: 5px;
+        background-color: green;
+        color: white;
+        outline: none;
+    }
+}
+/* another devices design  */
+@media (min-width:300px){
+    body {
+        background: url('https://static.vecteezy.com/system/resources/previews/029/337/868/large_2x/ai-generative-beautiful-jungle-background-with-border-made-of-tropical-leaves-backdrop-with-copy-space-free-photo.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+@media (min-width:500px){
+    div#login{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        border: 3px solid white;
+        border-radius: 7px;
+        backdrop-filter: blur(15px);
+        background: rgba(255,255,255,0.2);
+        height: 500px;
+        margin-top: 25px;
+    }
+}
+@media (min-width:500px){
+    div#login input{
+        backdrop-filter: blur(15px);
+        background: rgba(255,255,255,0.2);
+        width: 546px;
+        border-radius: 7px;
+        color: white;
+        height: 28px;
+        text-align: center;
+    }
+    }
